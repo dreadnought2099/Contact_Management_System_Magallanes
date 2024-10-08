@@ -21,6 +21,9 @@
             <a class="btn btn-danger" href="https://www.youtube.com/@paradoxx_the_art" target="_blank">
                 <i class="fab fa-youtube"></i> YouTube
             </a>
+            <a class="btn btn-danger" href="https://www.instagram.com/skerm_art/" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
         </div>
     </div>
 @endsection
