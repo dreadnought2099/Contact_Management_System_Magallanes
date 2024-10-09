@@ -9,7 +9,7 @@
         @foreach($contacts as $contact)
             <li class="list-group-item d-flex justify-content-between align-items-center">
                 <span title="View details">
-                    <a href="{{ route('contacts.show', $contact->id) }}">{{ $contact->first_name }} {{ $contact->last_name }}</a>
+                    <a href="{{ route('contacts.show', $contact->id) }}"class="hover-underline">{{ $contact->first_name }} {{ $contact->last_name }}</a>
                 </span>
                 <span>
                     <a href="{{ route('contacts.edit', $contact->id) }}" class="btn btn-warning text-white btn-sm">Edit</a>

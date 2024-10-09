@@ -50,12 +50,14 @@
             background-color: var(--background-color);
             color: var(--text-color);
         }
-
         body, h1, p, a {
             font-family: Verdana; 
         }
-        .form-label {
-            color: var(--label-color);
+        .hover-underline {
+            text-decoration: none; /* No underline by default */
+        }
+        .hover-underline:hover {
+            text-decoration: underline; /* Underline on hover */
         }
     </style>
     <script>

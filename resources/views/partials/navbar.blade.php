@@ -29,10 +29,10 @@
                 <a class="nav-link {{ request()->routeIs('contacts.create') ? 'active' : '' }}" href="{{ route('contacts.create') }}">Create New Contact</a>
             </li>
         </ul>
-        <form class="form-inline ms-auto">
+        <form class="form-inline ms-auto pe-2">
             <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" id="toggle-dark-mode">
-                <label class="form-check-label" for="toggle-dark-mode">Dark Mode</label>
+                <label class="form-check-label text-black" for="toggle-dark-mode">Dark Mode</label>
             </div>
         </form>
     </div>
