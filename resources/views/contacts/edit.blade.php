@@ -14,19 +14,28 @@
             <!-- First Name -->
             <div class="mb-3">
                 <label for="first_name" class="form-label">First Name:</label>
-                <input type="text" class="form-control" name="first_name" value="{{ $contact->first_name }}" required>
+                <input type="text" class="form-control" name="first_name" value="{{ $contact->first_name }}">
+                @error('first_name')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <!-- Last Name -->
             <div class="mb-3">
                 <label for="last_name" class="form-label">Last Name:</label>
-                <input type="text" class="form-control" name="last_name" value="{{ $contact->last_name }}" required>
+                <input type="text" class="form-control" name="last_name" value="{{ $contact->last_name }}">
+                @error('last_name')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <!-- Email -->
             <div class="mb-3">
                 <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form-control" name="email" value="{{ $contact->email }}" required>
+                <input type="email" class="form-control" name="email" value="{{ $contact->email }}">
+                @error('email')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <!-- Phone -->
