@@ -8,7 +8,7 @@
         body, h1, p, a {
             font-family: Verdana; /* Replace with your desired font */
         }
-    </style>
+    </style>    
     <div class="jumbotron">
         <h1 class="display-4 font-weight-bold">Welcome to Contact Management System!</h1>
         <p class="lead font-weight-bold">Manage your contacts efficiently and effortlessly.</p>

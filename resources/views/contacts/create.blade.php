@@ -62,4 +62,7 @@
         <!-- Back link to the contacts list -->
         <a href="{{ route('contacts.index') }}" class="btn btn-secondary mt-3">Back to Contact List</a>
     </div>
-@endsection
+@endsection 
+
+
+ 
