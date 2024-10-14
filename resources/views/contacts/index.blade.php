@@ -5,10 +5,10 @@
 
 @section('content')
     <h1 class="mb-4">Contact List</h1>
-    <ul class="list-group">
+    <ul class="list-group" title="View details">
         @foreach($contacts as $contact)
             <li class="list-group-item d-flex justify-content-between align-items-center">
-                <span title="View details">
+                <span>
                     <a href="{{ route('contacts.show', $contact->id) }}"class="hover-underline">{{ $contact->first_name }} {{ $contact->last_name }}</a>
                 </span>
                 <span>
@@ -23,3 +23,4 @@
         @endforeach
     </ul>
 @endsection
+

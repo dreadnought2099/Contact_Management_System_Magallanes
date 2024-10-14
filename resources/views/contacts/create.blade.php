@@ -13,7 +13,7 @@
 
             <!-- First Name -->
             <div class="mb-3">
-                <label for="first_name" class="form-label">First Name:</label>
+                <label for="first_name" class="form-label">First Name</label>
                 <input type="text" class="form-control" name="first_name" value="{{ old('first_name') }}">
                 @error('first_name')
                     <div class="text-danger">{{ $message }}</div>
@@ -22,7 +22,7 @@
 
             <!-- Last Name -->
             <div class="mb-3">
-                <label for="last_name" class="form-label">Last Name:</label>
+                <label for="last_name" class="form-label">Last Name</label>
                 <input type="text" class="form-control" name="last_name" value="{{ old('last_name') }}">
                 @error('last_name')
                     <div class="text-danger">{{ $message }}</div>
@@ -31,7 +31,7 @@
 
             <!-- Email -->
             <div class="mb-3">
-                <label for="email" class="form-label">Email:</label>
+                <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" name="email" value="{{ old('email') }}">
                 @error('email')
                     <div class="text-danger">{{ $message }}</div>
@@ -40,7 +40,7 @@
 
             <!-- Phone -->
             <div class="mb-3">
-                <label for="phone" class="form-label">Phone (optional):</label>
+                <label for="phone" class="form-label">Phone (optional)</label>
                 <input type="text" class="form-control" name="phone" value="{{ old('phone') }}">
                 @error('phone')
                     <div class="text-danger">{{ $message }}</div>
@@ -49,7 +49,7 @@
 
             <!-- Address -->
             <div class="mb-3">
-                <label for="address" class="form-label">Address (optional):</label>
+                <label for="address" class="form-label">Address (optional)</label>
                 <textarea class="form-control" name="address">{{ old('address') }}</textarea>
                 @error('address')
                     <div class="text-danger">{{ $message }}</div>

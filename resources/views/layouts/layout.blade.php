@@ -54,10 +54,10 @@
             font-family: Verdana; 
         }
         .hover-underline {
-            text-decoration: none; /* No underline by default */
+            text-decoration: none;
         }
         .hover-underline:hover {
-            text-decoration: underline; /* Underline on hover */
+            text-decoration: underline; 
         }
     </style>
     <script>

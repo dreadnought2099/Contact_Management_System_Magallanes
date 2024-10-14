@@ -31,7 +31,7 @@
         </ul>
         <form class="form-inline ms-auto pe-2">
             <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="toggle-dark-mode">
+                <input class="form-check-input" type="checkbox" id="toggle-dark-mode"  title="Dark Mode">
                 <label class="form-check-label text-black" for="toggle-dark-mode">Dark Mode</label>
             </div>
         </form>
