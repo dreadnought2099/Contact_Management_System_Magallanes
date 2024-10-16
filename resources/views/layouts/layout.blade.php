@@ -59,6 +59,10 @@
         .hover-underline:hover {
             text-decoration: underline;
         }
+
+        .footer p {
+            font-size: 12px;
+        }
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
