@@ -9,7 +9,7 @@ class ContactSeeder extends Seeder
 {
     public function run()
     {
-        //50 ka generated accounts
+        //10 ka generated accounts
         Contact::factory()->count(10)->create();
     }
 }
